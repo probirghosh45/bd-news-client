@@ -12,7 +12,7 @@ const Footer = () => {
             <div className="container">
 
                 <div className="row">
-                    <div className="col-md-3">
+                    <div className="col-md-3 text-center ">
                         <Link to="/" className="brand-logo" >
                             <img  style={{height:"150px"}} src={brandLogo} alt="" />
                         </Link>
@@ -25,21 +25,21 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-3 text-white">
+                    <div className="col-md-3 text-white" id="footer">
                         <h4 className="mb-4">CATEGORY</h4>
                         <h5>National News</h5>
                         <h5>International News</h5>
                         <h5>Sports News</h5>
                     </div>
 
-                    <div className="col-md-3 text-white">
+                    <div className="col-md-3 text-white" id="footer" >
                         <h4 className="mb-4">QUICK LINK</h4>
                         <h5>National News</h5>
                         <h5>International News</h5>
                         <h5 as={Link} to="/sportsNews" >Sports News</h5>
                     </div>
 
-                    <div className="col-md-3 text-white">
+                    <div className="col-md-3 text-white" id="footer" >
                         <h4 className="mb-4">Communicate With US</h4>
                         <h5><span className="me-2"><FontAwesomeIcon icon={faMapMarkerAlt} /></span>Rampura,Bangladesh</h5>
                         <h5><span className="me-2"><FontAwesomeIcon icon={faPhoneAlt} /></span>01614563314</h5>

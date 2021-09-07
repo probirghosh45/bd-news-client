@@ -8,10 +8,10 @@ const HomeSidebar = () => {
         <Row className="">
           <Col>
           <ListGroup className="text-center home__sidebar__style">
-              <ListGroup.Item  as={Link} to="/"  style={{ backgroundColor:"pink", fontSize:"30px",fontWeight:"bold" }} >News Category</ListGroup.Item>
-              <ListGroup.Item as={Link} to="/nationalNews"  className="home__sidebar__item mt-3" style={{ backgroundColor:"#54B12B" }} >National News</ListGroup.Item>
-              <ListGroup.Item as={Link} to="/internationalNews" className="home__sidebar__item" style={{ backgroundColor:"#54B12B" }} >International News</ListGroup.Item>
-              <ListGroup.Item as={Link} to="/sportsNews" className="home__sidebar__item" style={{ backgroundColor:"#54B12B" }} >Sports News</ListGroup.Item>
+              <ListGroup.Item  as={Link} to="/" className="home__sidebar__item_heading" >News Category</ListGroup.Item>
+              <ListGroup.Item as={Link} to="/nationalNews"  className="home__sidebar__item mt-3">National News</ListGroup.Item>
+              <ListGroup.Item as={Link} to="/internationalNews" className="home__sidebar__item">International News</ListGroup.Item>
+              <ListGroup.Item as={Link} to="/sportsNews" className="home__sidebar__item" >Sports News</ListGroup.Item>
             </ListGroup>  
           </Col>
        </Row>

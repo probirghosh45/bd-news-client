@@ -30,11 +30,11 @@ const ManageProducts = ({setEditProduct}) => {
 
 
     return (
-        <div className="px-5 pt-4 mx-md-4 mt-5 bg-white" style={{ borderRadius: "15px" }}>
+        <div className="pt-4 mt-5 bg-white" style={{ borderRadius: "15px" }}>
         <Table hover borderless responsive>
             <thead className="bg-light">
                 <tr>
-                    <th>News Photo</th>
+                    <th>Photo</th>
                     <th>News Title</th>
                     <th>Author</th>
                     <th>Category</th>

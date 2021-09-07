@@ -23,7 +23,7 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
 
 
     const updateProduct = Product => {
-        axios.patch(`https://calm-shore-02848.herokuapp.com/update/${editProduct?._id}`, Product)
+        axios.patch(`http://localhost:7500/update/${editProduct?._id}`, Product)
             .then(response => response.data && swal("Successfully updated", "Your product is successfully updated!", "success"))
             .catch(error => console.log(error));
     }
@@ -32,11 +32,11 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
     return (
         <>
             {editProduct?._id ? <AddProduct editProduct={editProduct} updateProduct={updateProduct} /> :
-                <div className="px-5 pt-4 mx-md-4 mt-5 bg-white" style={{ borderRadius: "15px" }}>
+                <div className="pt-4 mt-5 bg-white" style={{ borderRadius: "15px" }}>
                     <Table hover borderless responsive>
                         <thead className="bg-light">
                             <tr>
-                            <th>News Photo</th>
+                            <th>Photo</th>
                             <th>News Title</th>
                             <th>Author</th>
                             <th>Category</th>

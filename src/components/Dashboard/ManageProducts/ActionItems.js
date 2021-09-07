@@ -13,7 +13,7 @@ const ActionItems = (props) => {
 
     const redirectEdit = () => {
         props.setEditProduct(props.item)
-        history.replace({ pathname: "/dashboard/editProduct" });
+        history.replace({ pathname: "/dashboard/editNews" });
     }
 
   return (
@@ -25,8 +25,8 @@ const ActionItems = (props) => {
           </td>
           <td>{newsTitle}</td>
           <td>{author || ""}</td>
-          <td>${newsCategory}</td>
-          <td>${newsDescription}</td>
+          <td>{newsCategory}</td>
+          <td>{newsDescription}</td>
           <td>
             {adminPanel === "editProduct" ? (
               <Button

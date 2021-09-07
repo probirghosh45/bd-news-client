@@ -1,3 +1,20 @@
+
+
+/* button design */
+
+.button__style{
+  border:0;
+  border-radius: 10px;
+  background-color:crimson;
+  padding: 10px 30px;
+  font-weight: 500;
+
+}
+
+
+
+
+
 .sidebar__style{
     background: linear-gradient(to right, rgb(192, 19, 192), rgb(56, 239, 125));
     height: 100vh;
@@ -154,8 +171,22 @@ h3{
   height: 70vh;
 }
 
+
+.home__sidebar__item_heading{
+  color: #d5d5d5;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #2D1F3D;
+}
+
+.home__sidebar__item_heading:hover{
+
+  color: #3FE380;
+  transition: all ease-in .5s;
+}
+
 .home__sidebar__item{
-  background: rgba(0, 0, 0, 0.100);
+  background:#54B12B;
   color: #fff;
   transition: all ease-in .5s;
 }
@@ -172,8 +203,12 @@ h3{
   text-shadow: 0px 0px 10px #fff;
 }
 
+/* footer */
 
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #footer { display: none; }  
+}
 
 
 

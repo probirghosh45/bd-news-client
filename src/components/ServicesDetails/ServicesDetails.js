@@ -65,16 +65,22 @@ const ServicesDetails = ({ service }) => {
                         )
                     }}
                 >
-                    <Link to="/newsDetails" onClick={()=>setCart(service)} className="card service-card py-3 px-1 mb-5 border-0" style={{ width: '18rem', textDecoration: 'none' }}>
-                        {
-                             <img style={{ width: '280px', height:'350px' }} className="mx-auto"  alt='package-img' src={newsImage}  />
-                        }
+                    <div   className="card service-card py-3 px-1 mb-5 border-0" style={{ width: '18rem', textDecoration: 'none' }}>
+                        <img style={{ width: '280px', height:'350px' }} className="mx-auto"  alt='package-img' src={newsImage}  />
                         <div className="card-body">
                             <h5 className="card-title text-center">{newsTitle}</h5>
                             <h6 className="card-title text-center">{author}</h6>
                             <h3 className="card-text text-center">{newsCategory}</h3>
                         </div>
-                    </Link>
+                        <div className="text-center">
+                        <Button 
+                            className="button__style shadow-none" 
+                            as={Link} 
+                            to="/newsDetails" onClick={()=>setCart(service)} >
+                                View More
+                            </Button>
+                        </div>
+                    </div>
                 </animated.div>
             </div>
     </div>

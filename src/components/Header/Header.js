@@ -26,14 +26,14 @@ const Header = () => {
           <Navbar.Brand as={Link} to="/">BD News</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto">
+            <Nav className="ms-auto text-white">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
             <Nav.Link as={Link} to="/nationalNews">National News</Nav.Link>
             <Nav.Link as={Link} to="/internationalNews">International News</Nav.Link>
             <Nav.Link as={Link} to="/sportsNews">Sports News</Nav.Link>
             <Nav.Link as={Link} to="/deals">Deals</Nav.Link>
             <Nav.Link as={Link} to="/admin">Dashboard</Nav.Link>
-             <Nav.Link  onClick={handleLoginBtn} className="nav-link btn btn-dark text-white px-4">
+             <Nav.Link   onClick={handleLoginBtn}>
                {loggedInUser.email ? `${loggedInUser.name.split(' ')[0]} / Logout` : 'Login'}                       
               </Nav.Link>
             </Nav>
