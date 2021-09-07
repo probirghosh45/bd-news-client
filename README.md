@@ -24,7 +24,7 @@
 - **MongoDB**
 
 
-### `Website Link :` [https://bd-news-portal.web.app/](https://bd-news-portal.web.app/)
+### `Website Link :` [BD News](https://bd-news-portal.web.app/)
 
 <hr/>
 
@@ -35,3 +35,5 @@
 ### `Contact Me`
 
 Connect Me on [Facebook](https://www.facebook.com/Probiirghosh)
+
+<hr/>
