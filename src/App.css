@@ -1,0 +1,184 @@
+.sidebar__style{
+    background: linear-gradient(to right, rgb(192, 19, 192), rgb(56, 239, 125));
+    height: 100vh;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.sidebar__item{
+    background: rgba(0, 0, 0, 0.100);
+    color: #fff;
+    transition: all ease-in .5s;
+}
+.sidebar__item:hover{
+    background: rgba(0, 0, 0, 0.150) !important;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+    padding-right: 15px;
+    transition: all ease-in .3s;
+}
+.sidebar__item:focus{
+    background: rgba(0, 0, 0, 0.150) !important;
+    color: #fff;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+
+/* Login Form Design */
+
+ .mini-btn {
+    background: none;
+    color: none;
+    outline: none;
+    border: none;
+    color: #ff6e40;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .mini-btn:hover {
+    color: #eb3c06;
+  }
+  .my-btn-google {
+    color: white;
+    background-color: #2ea81c !important;
+    border-radius: 5px;
+    border: none;
+  }
+  .my-btn-facebook {
+    color: white;
+    background-color: #3a5999 !important;
+    border-radius: 5px;
+    border: none;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+  .error {
+    color: rgb(255, 191, 191);
+    font-weight: light;
+  }
+  .success {
+    color: greenyellow;
+    font-weight: light;
+  }
+  
+  .my-form .inp-style {
+    color: #0db0f0;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    margin: 10px 0;
+    outline: #fdf7f7;
+  }
+  .my-form .inp-style:focus {
+    border: rgb(240, 13, 13);
+    outline: rgb(240, 13, 13);
+  }
+  .my-form .inp-style::placeholder {
+    color: #0db0f0;
+  }
+  .my-btn-submit {
+    color: rgb(240, 13, 13);
+    background-color: #ff6e40 !important;
+    border-radius: 5px;
+    border: none;
+  }
+   
+
+
+  /* Service card design */
+
+  .service-text-box{
+    font-weight: bolder;
+    text-align: center;
+    border: 5px solid rgb(240, 13, 13);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.400);
+}
+.service-text-box p{
+    color: #d5d5d5;
+
+}
+
+.service-box{
+    overflow: hidden;
+    border: none;
+    box-shadow: 5px 5px 10px #ddd;
+    border-radius: 2.5px;
+}
+.service-box img{
+    width: auto;
+    height: 350px;
+    transition: all ease .3s;
+    
+}
+.service-box:hover img{
+    filter: blur(1px);
+    transform: scale(1.1);
+    transition: all ease .3s;
+}
+.service-price{
+    background: rgba(0, 0, 0, 0.600);
+    border-radius: 20px;
+}
+
+
+/* Service Card Design */
+
+
+.service-card:hover{
+  background: linear-gradient(50deg, #67fb62,#58ebdf);
+  color: black !important;
+  box-shadow: 5px 5px 10px grey;
+}
+
+h6{
+  color:fuchsia;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h3{
+  color: crimson;
+}
+
+/* Home Sidebar Design */
+
+.home__sidebar__style{
+  background: linear-gradient(to right, rgb(192, 19, 192), rgb(56, 239, 125));
+  height: 70vh;
+}
+
+.home__sidebar__item{
+  background: rgba(0, 0, 0, 0.100);
+  color: #fff;
+  transition: all ease-in .5s;
+}
+.home__sidebar__item:hover{
+  background: rgba(0, 0, 0, 0.150) !important;
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff;
+  padding-right: 15px;
+  transition: all ease-in .3s;
+}
+.home__sidebar__item:focus{
+  background: rgba(0, 0, 0, 0.150) !important;
+  color: #fff;
+  text-shadow: 0px 0px 10px #fff;
+}
+
+
+
+
+
+
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+

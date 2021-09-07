@@ -1,0 +1,12 @@
+.slider-container {
+ height: 70vh;
+}
+.slider-container img{
+ height: 100%;
+}
+.control-arrow{
+
+  opacity: 1 !important;
+  background: transparent !important;
+
+}
