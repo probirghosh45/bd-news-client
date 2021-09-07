@@ -41,9 +41,9 @@ const Footer = () => {
 
                     <div className="col-md-3 text-white" id="footer" >
                         <h4 className="mb-4">Communicate With US</h4>
-                        <h5><span className="me-2"><FontAwesomeIcon icon={faMapMarkerAlt} /></span>Rampura,Bangladesh</h5>
-                        <h5><span className="me-2"><FontAwesomeIcon icon={faPhoneAlt} /></span>01614563314</h5>
+                        <h5><span className="me-2"><FontAwesomeIcon icon={faMapMarkerAlt} /></span>Rampura,Dhaka</h5>
                         <h5><span className="me-2"><FontAwesomeIcon icon={faEnvelope} /></span>Support@probir.com</h5>
+                        <h5><span className="me-2"><FontAwesomeIcon icon={faPhoneAlt} /></span>01614563314</h5>
                     </div>
 
                 </div>

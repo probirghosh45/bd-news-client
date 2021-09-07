@@ -31,7 +31,7 @@ const AddProduct = ({editProduct, updateProduct }) => {
           return updateProduct(productInfo)
       }
   
-      axios.post('http://localhost:7500/addNews', productInfo )
+      axios.post('https://blooming-river-53742.herokuapp.com/addNews', productInfo )
       .then(res=> {
         res.data && 
         // alert("New Product Added")

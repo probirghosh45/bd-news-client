@@ -9,7 +9,7 @@ const ManageProducts = ({setEditProduct}) => {
     const [items,setItems]=useState([]);
 
     useEffect(() => {
-      axios.get('http://localhost:7500/news')
+      axios.get('https://blooming-river-53742.herokuapp.com/news')
           .then(response => {setItems(response.data);})
           .catch(error => {console.log(error)})
   }, [])
@@ -18,7 +18,7 @@ const ManageProducts = ({setEditProduct}) => {
   const handleDeleteItem = id => {
     const removedItems = items.filter(item => item._id !== id);
   
-    axios.delete(`http://localhost:7500/delete/${id}`)
+    axios.delete(`https://blooming-river-53742.herokuapp.com/delete/${id}`)
         .then(response => {
             response && setItems(removedItems);;
         })

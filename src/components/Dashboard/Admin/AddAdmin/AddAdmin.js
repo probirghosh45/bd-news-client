@@ -10,7 +10,7 @@ const AddAdmin = () => {
     
         console.log(data);
   
-        axios.post('http://localhost:7500/addAdmin',data)
+        axios.post('https://blooming-river-53742.herokuapp.com/addAdmin',data)
         .then(res=>{
           console.log(res);
           console.log(res.data);

@@ -11,7 +11,7 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
     const [items, setItems] = useState([]);
 
     useEffect(() => {
-        axios.get('http://localhost:7500/news')
+        axios.get('https://blooming-river-53742.herokuapp.com/news')
             .then(response => {
                 setItems(response.data);
                 // setLoading(false);
@@ -23,7 +23,7 @@ const EditProduct = ({ editProduct, setEditProduct }) => {
 
 
     const updateProduct = Product => {
-        axios.patch(`http://localhost:7500/update/${editProduct?._id}`, Product)
+        axios.patch(`https://blooming-river-53742.herokuapp.com/update/${editProduct?._id}`, Product)
             .then(response => response.data && swal("Successfully updated", "Your product is successfully updated!", "success"))
             .catch(error => console.log(error));
     }

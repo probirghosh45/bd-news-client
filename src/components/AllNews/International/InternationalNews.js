@@ -12,7 +12,7 @@ const InternationalNews = () => {
 
     useEffect(()=>{
 
-        axios.get('http://localhost:7500/news')
+        axios.get('https://blooming-river-53742.herokuapp.com/news')
         .then(res=>{
             setServices(res.data)
             setPreloader(false)
